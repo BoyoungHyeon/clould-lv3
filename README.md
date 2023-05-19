@@ -28,8 +28,20 @@
 - 고객이 주문상태를 중간중간 조회한다.
 - 라이더의 배달이 끝나면 배송확인 버튼으로 모든 거래가 완료된다.
 
-## Model
+
+### 1.Eventstorming Model
 www.msaez.io/#/storming/clouldlvsm
+![image](https://github.com/BoyoungHyeon/clould-lv3/assets/49936027/69f9c830-c14e-4b02-8ce2-3ebb5dd908d7)
+
+### 2. Saga (Pub / Sub) 확인 (클러스터에 Kafka 설치 후)
+![image](https://github.com/BoyoungHyeon/clould-lv3/assets/49936027/2c96c144-801f-4227-a2d3-83c977b7e04c)
+
+### 3.Service Router 설치
+![image](https://github.com/BoyoungHyeon/clould-lv3/assets/49936027/5b01930e-8545-4af0-9d62-4080838e36e5)
+
+### 4.Zero downtime Deployment
+![image](https://github.com/BoyoungHyeon/clould-lv3/assets/49936027/eb29bbb5-1922-4b46-a7f7-44002334c52c)
+
 
 ## Before Running Services
 ### Make sure there is a Kafka server running
